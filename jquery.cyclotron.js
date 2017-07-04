@@ -1,5 +1,6 @@
 (function ($) {
 	$.fn.cyclotron = function (options) {
+		$(this).append( "<div class='pantext' style='color:#3399ff;font-size:2.5em; text-align:center; padding-top:2em; height:100%;'>&lt;&lt; Panorama Image &gt;&gt;</div>" );
 		var settings = $.extend({
 			dampingFactor: 0.93,
 			historySize: 5
@@ -27,6 +28,7 @@
 					h.push(prev - px);
 
 					container.css('background-position', offset);
+					$(this).children(".pantext").fadeOut(800);
 
 					prev = px;
 				}
