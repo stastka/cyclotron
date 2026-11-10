@@ -6,6 +6,8 @@
 - **Modern Overlay Hint:** Includes a sleek, glassmorphism-style instruction badge centered over the panorama that automatically fades out on interaction.
 - **Multilingual Support:** Easy localization for instructions (English, German, Czech, Japanes
 
+Testet on Windows 11, Firefox 159, Chrome 157, Chrome 156 (Android 17)
+
 ## 1. You need some element with a background image. E.g.:
 
 ```html
